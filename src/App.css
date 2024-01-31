@@ -1,0 +1,31 @@
+.bghGradient {
+  background: rgb(131, 58, 180);
+  background: linear-gradient(
+    90deg,
+    rgba(131, 58, 180, 1) 0%,
+    rgba(253, 29, 29, 1) 50%,
+    rgba(252, 176, 69, 1) 100%
+  );
+}
+
+.mainContainer{
+  flex-grow: 1;
+}
+
+#root{
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
+
+.paleta{
+  width: 7rem;
+  height:7rem;
+  border-style:groove ;
+  border-width: .4rem;
+  border-color: black;
+}
+
+.bg-card{
+  background-color: rgb(173, 236, 215);
+}
